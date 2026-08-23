@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "name": "My Site",
+      "client": "Internal",
+      "domain": "example.com",
+      "gscSiteUrl": "sc-domain:example.com",
+      "ga4Property": "properties/123456789",
+      "notes": "Replace with the real GA4 property ID."
+    },
+    {
+      "name": "Client Example",
+      "client": "Client Name",
+      "domain": "client-example.com",
+      "gscSiteUrl": "https://www.client-example.com/",
+      "ga4Property": "properties/987654321",
+      "notes": "Use the URL-prefix GSC property when the client has not verified a domain property."
+    }
+  ]
+}

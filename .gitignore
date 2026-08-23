@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.credentials/
+credentials/
+*client_secret*.json
+*service_account*.json
+*service-account*.json
+*oauth-client*.json
+token.json
+*token*.json
+projects.json
+*.pem
+*.key
+.DS_Store

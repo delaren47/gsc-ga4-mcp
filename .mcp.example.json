@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "google-seo": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/gsc-ga4-mcp/dist/index.js"],
+      "env": {
+        "GOOGLE_AUTH_MODE": "oauth",
+        "GOOGLE_OAUTH_CREDENTIALS_FILE": "/Users/YOUR_USER/.config/gsc-ga4-mcp/oauth-client.json",
+        "GOOGLE_TOKEN_PATH": "/Users/YOUR_USER/.config/gsc-ga4-mcp/token.json",
+        "PROJECTS_CONFIG": "/Users/YOUR_USER/.config/gsc-ga4-mcp/projects.json",
+        "MCP_DEFAULT_GSC_SITE": "sc-domain:example.com",
+        "MCP_DEFAULT_GA4_PROPERTY": "properties/123456789"
+      }
+    }
+  }
+}
